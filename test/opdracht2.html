@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Opdracht 2: Onze Taal</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="js2.js"></script>
+</head>
+<body>
+<figure>
+    <img src="onzeTaal.jpg" alt="Onze Taal" title="Onze Taal"/>
+    <figcaption>Onze Taal</figcaption>
+</figure>
+<form name="taalvraag" method="get" action="#">
+    <fieldset>
+        <legend>Stel uw vraag</legend>
+        <label for="naam">Uw naam:</label>
+        <input type="text" onfocusout="checkNotEmpty('naam','meldingNaam');" name="naam" id="naam" placeholder="naam"/>
+        <span class="melding" id="meldingNaam"></span>
+        <br/>
+        <label for="email">Uw e-mailadres:</label>
+        <input type="email" onfocusout="checkNotEmpty('email','meldingEmail');" name="email" id="email" placeholder="e-mail"/>
+        <span class="melding" id="meldingEmail"></span>
+        <br/>
+        <label for="vraag">Uw vraag:</label>
+        <input type="text" onfocusout="checkNotEmpty('vraag','meldingVraag');" name="vraag" id="vraag" placeholder="vraag"/>
+        <span class="melding" id="meldingVraag"></span>
+        <br/>
+        <input type="submit" name="verzenden" id="verzenden" value="Verzenden"/>
+    </fieldset>
+</form>
+</body>
+</html>

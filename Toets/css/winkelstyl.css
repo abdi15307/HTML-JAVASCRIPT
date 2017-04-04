@@ -1,0 +1,47 @@
+.producten{
+    width:75%;
+    text-align: center;
+    padding-left: 175px;
+
+
+}
+.bgimage{
+
+    background-image: url("../img/candy_head.jpg");
+    background-position:center ;
+    background-size:cover ;
+    height: 200px;
+}
+.h1,h2,h3 {
+    font-family: 'Freckle Face', cursive;
+
+}
+p , a{
+    font-family: 'Alegreya', serif;
+}
+input{
+    width: 50px;
+}
+.img-responsivehead
+{
+    width:100%;
+}
+.tekstimg{
+    font-family: 'Freckle Face', cursive;
+    padding-left: 98px;
+}
+.knoppen
+{
+    padding-left: 175px;
+    padding-top: 46px;
+}
+.berekenen{
+width: 30%;
+}
+footer{
+    width:100%;
+    margin-top: 145px;
+    background-color: #f2f2f2;
+    height: 114px;
+
+}

@@ -1,0 +1,100 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.dbscolor{
+    background-color: #28365c;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    width: 100%;
+    background-color:#28365c;
+}
+
+.onderkant{
+    width: 100%;
+}
+.links, div.links ,a{
+    color: white;
+
+}
+.fotoonder{
+    width: 50%;
+}
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+
+}
+.item img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.entry-title{
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 800;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+
+.entry-title:after{
+  content: '';
+    display: block;
+    width: 60px;
+    height: 10px;
+    border-bottom: 5px solid #dedede;
+    margin: 20px auto 0 auto;
+}
+
+.entry-content{
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+#white-bottom-text{
+  color:white;
+}
+
+#second-row-margin-left{
+  margin-left: 75px;
+}*/
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    .entry-content{
+      width: 100%;
+      padding: 0 30px;
+    }
+}
+@media (max-width: 1024px) {
+  .entry-content{
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+td.blauw {
+	background-color : #28365c;
+	color : white;
+	
+}
+td {
+	padding : 6px;
+}
+button {
+	background-color : #28365c;
+}
+.container-fluid {
+	margin-top : 15px;
+}

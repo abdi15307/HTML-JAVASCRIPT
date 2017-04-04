@@ -1,0 +1,39 @@
+
+
+body, p, a {
+
+    font-family: 'Alegreya', serif;
+
+}
+.bgimage{
+
+    background-image: url("../img/candy_head.jpg");
+    background-position:center ;
+    background-size:cover ;
+    height: 200px;
+}
+h1,h2,h3 {
+    font-family: 'Freckle Face', cursive;
+
+
+}
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+.tekstimg{
+    padding-left: 98px;
+}
+
+
+.img-responsivehead{
+    width: 100%;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}

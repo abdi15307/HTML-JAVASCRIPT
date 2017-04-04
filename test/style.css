@@ -1,0 +1,17 @@
+* {
+	font-family: arial;}
+body {
+	width: 70%;
+	min-width: 400px;
+	max-width: 600px;
+	padding: 10px;}
+figcaption {
+	font-style: italic;}
+fieldset {
+	background-color: #eeeeee;}
+label {
+	display: block;}
+.melding {
+	color: grey;}
+input[id=vraag] {
+	width: 400px;}
